@@ -1,0 +1,60 @@
+{
+  "shortcuts": {
+    "F1": "js-personal-browser",
+    "F2": "bentoml-browser",
+    "F3": "cursor-editor",
+    "F4": "warp-terminal",
+    "F5": "obsidian-notes"
+  },
+  "applications": {
+    "js-personal-browser": {
+      "name": "Brave Browser (JS Personal)",
+      "launch_command": "brave-browser --profile-directory='JS Personal'",
+      "window_identification": {
+        "window_classes": ["brave-browser"],
+        "title_patterns": ["brave"],
+        "window_position": 0
+      }
+    },
+    "bentoml-browser": {
+      "name": "Brave Browser (BentoML)",
+      "launch_command": "brave-browser --profile-directory='BentoML'",
+      "window_identification": {
+        "window_classes": ["brave-browser"],
+        "title_patterns": ["brave"],
+        "window_position": 1
+      }
+    },
+    "cursor-editor": {
+      "name": "Cursor Code Editor",
+      "launch_command": "cursor",
+      "window_identification": {
+        "window_classes": ["cursor"],
+        "title_patterns": ["cursor"]
+      }
+    },
+    "warp-terminal": {
+      "name": "Warp Terminal",
+      "launch_command": "warp",
+      "window_identification": {
+        "window_classes": ["dev.warp.warp", "warp"],
+        "title_patterns": ["warp"]
+      }
+    },
+    "obsidian-notes": {
+      "name": "Obsidian",
+      "launch_command": "obsidian",
+      "window_identification": {
+        "window_classes": ["obsidian"],
+        "title_patterns": ["obsidian"]
+      }
+    }
+  },
+  "aliases": {
+    "brave-browser-0": "js-personal-browser",
+    "brave-browser-1": "bentoml-browser",
+    "cursor": "cursor-editor",
+    "warp": "warp-terminal",
+    "obsidian": "obsidian-notes"
+  }
+} 
