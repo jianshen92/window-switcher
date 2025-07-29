@@ -4,7 +4,8 @@
     "F2": "bentoml-browser",
     "F3": "cursor-editor",
     "F4": "warp-terminal",
-    "F5": "obsidian-notes"
+    "F5": "obsidian-notes",
+    "F6": "slack"
   },
   "applications": {
     "js-personal-browser": {
@@ -48,6 +49,14 @@
         "window_classes": ["obsidian"],
         "title_patterns": ["obsidian"]
       }
+    },
+    "slack": {
+      "name": "Slack",
+      "launch_command": "slack",
+      "window_identification": {
+        "window_classes": ["slack"],
+        "title_patterns": ["slack"]
+      }
     }
   },
   "aliases": {
@@ -55,6 +64,7 @@
     "brave-browser-1": "bentoml-browser",
     "cursor": "cursor-editor",
     "warp": "warp-terminal",
-    "obsidian": "obsidian-notes"
+    "obsidian": "obsidian-notes",
+    "slack": "slack"
   }
 } 
